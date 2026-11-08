@@ -1,0 +1,11 @@
+{
+  "version": "2.9.0",
+  "core_ui_raw": 37,
+  "core_ui_obfuscated": 37,
+  "native_raw_and_obfuscated": "PASS",
+  "bulk_place_selection_scope": "PASS",
+  "single_exe_preview": "PASS",
+  "real_credentials_login_not_tested": true,
+  "published": false,
+  "sha256": "c11693286203df9e2cf67431e5719ef636aedc4afe757222d5321ff7d790edf8"
+}
