@@ -1,11 +1,13 @@
 {
-  "version": "2.9.0",
-  "core_ui_raw": 37,
-  "core_ui_obfuscated": 37,
+  "version": "2.9.1",
+  "core_ui_raw": 38,
+  "core_ui_obfuscated": 38,
   "native_raw_and_obfuscated": "PASS",
-  "bulk_place_selection_scope": "PASS",
+  "unbound_ghost_repeated_confirmation": "PASS",
+  "background_hidden_window": "PASS",
+  "minimized_tiny_windows_preserved": "PASS",
   "single_exe_preview": "PASS",
-  "real_credentials_login_not_tested": true,
+  "real_user_processes_terminated": false,
   "published": false,
-  "sha256": "c11693286203df9e2cf67431e5719ef636aedc4afe757222d5321ff7d790edf8"
+  "sha256": "d77ccd9847e2abb8e1b4a29531ac8dfa4482465af3fdf1b3d30a75ee3dc8422d"
 }
