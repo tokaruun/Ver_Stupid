@@ -1,6 +1,6 @@
 {
-    "version":  "2.9.1",
+    "version":  "3.0.2",
     "download":  "https://raw.githubusercontent.com/tokaruun/Ver_Stupid/main/WapeHub.exe",
-    "sha256":  "d77ccd9847e2abb8e1b4a29531ac8dfa4482465af3fdf1b3d30a75ee3dc8422d",
+    "sha256":  "76d5e3769edf090d769e1c8197d841d3407ff41f81bcac197d8d64df8639572b",
     "webview2Sdk":  "1.0.3800.47"
 }

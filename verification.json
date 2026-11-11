@@ -1,13 +1,17 @@
 {
-  "version": "2.9.1",
-  "core_ui_raw": 38,
-  "core_ui_obfuscated": 38,
+  "version": "3.0.2",
+  "backend_url": "https://rejoin.kurinian-hub.xyz",
+  "required_client_id": "1492514614951284890",
+  "live_backend_start_and_oauth_url_validation": "PASS",
+  "oauth_live_login_not_tested": true,
+  "core_ui_raw": 39,
+  "core_ui_obfuscated": 39,
   "native_raw_and_obfuscated": "PASS",
-  "unbound_ghost_repeated_confirmation": "PASS",
-  "background_hidden_window": "PASS",
-  "minimized_tiny_windows_preserved": "PASS",
+  "backend_oauth_tests": 7,
   "single_exe_preview": "PASS",
-  "real_user_processes_terminated": false,
+  "required_discord_guild_id": "1532635816898330684",
+  "server_configuration_changed": false,
+  "secret_rotation_required": true,
   "published": false,
-  "sha256": "d77ccd9847e2abb8e1b4a29531ac8dfa4482465af3fdf1b3d30a75ee3dc8422d"
+  "sha256": "76d5e3769edf090d769e1c8197d841d3407ff41f81bcac197d8d64df8639572b"
 }
