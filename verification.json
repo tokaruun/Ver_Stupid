@@ -1,12 +1,13 @@
 {
-  "version": "3.1.1",
-  "core_ui_raw": 44,
-  "core_ui_obfuscated": 44,
+  "version": "3.1.2",
+  "core_ui_raw": 45,
+  "core_ui_obfuscated": 45,
   "native_raw": "PASS",
   "native_obfuscated": "PASS",
+  "backend_tests": 10,
   "single_exe_preview": "PASS",
-  "five_second_ram_schedule": "PASS",
-  "live_roblox_cpu_tested": false,
-  "published": false,
-  "sha256": "474b0ef4223089e9f8625d48add3189a57f9631f6903fcc1668080603f368381"
+  "live_discord_login_tested": false,
+  "backend_published": false,
+  "exe_published": false,
+  "sha256": "a7ae9e2ff78bb93db1fb6ea565c631fa42c41a6a75f36ac66437363404589da3"
 }
