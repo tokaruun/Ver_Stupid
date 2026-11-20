@@ -1,20 +1,12 @@
 {
-  "version": "3.1.0",
-  "core_ui_raw": 43,
-  "core_ui_obfuscated": 43,
+  "version": "3.1.1",
+  "core_ui_raw": 44,
+  "core_ui_obfuscated": 44,
   "native_raw": "PASS",
   "native_obfuscated": "PASS",
   "single_exe_preview": "PASS",
-  "local_log_tests": [
-    "disconnect/recovery/stale/script output PASS",
-    "unique timestamp correlation and ambiguity skip PASS",
-    "chatty log retains observed disconnect PASS",
-    "confirmed kick with healthy Presence PASS",
-    "kick retry cap and manual resume PASS",
-    "slow Presence does not block monitor PASS"
-  ],
-  "live_kick_tested": false,
-  "backend_unchanged": true,
+  "five_second_ram_schedule": "PASS",
+  "live_roblox_cpu_tested": false,
   "published": false,
-  "sha256": "1667118c914b954ae048ed0ab467033a18cc80d507b626e10dad033d4dcd8a7a"
+  "sha256": "474b0ef4223089e9f8625d48add3189a57f9631f6903fcc1668080603f368381"
 }
