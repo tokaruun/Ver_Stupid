@@ -1,1 +1,10 @@
-Replace the old tool with WapeHub.exe. Settings: enable the log-based kick/disconnect check and save. Enabled by default. After launch grace, a persistent disconnect observation for 20 seconds can trigger rejoin even when Presence says InGame. Only unambiguous per-process startup log correlation is accepted. Up to 3 local-error rejoins in 10 minutes, then pause; click Rejoin manually to resume. Hover the status cell for log information. Unknown/ambiguous logs use Presence fallback. Custom game error popups without network log events are not guaranteed detectable. No Lua autoexec required. Real game kicks were not tested. Upload WapeHub.exe and generated version.json for auto-update when ready.
+WapeHub 3.1.3
+Tool backend: https://kurinian-hub.xyz/rejoin
+Desktop Discord callback: https://kurinian-hub.xyz/rejoin/auth/callback
+
+Deploy the updated D:\Tool Rejoin\backend and dashboard with VapeeWeb's /rejoin proxy.
+Set TOOL_DISCORD_REDIRECT_URI=https://kurinian-hub.xyz/rejoin/auth/callback on the backend.
+Register that exact callback URL in Discord Developer Portal, then restart backend.
+Dashboard Discord callback remains /rejoin/api/auth/discord/callback (a separate URL).
+Replace the old EXE with this single WapeHub.exe. Existing local data is preserved.
+No production deployment or live Discord login was performed by this build.
