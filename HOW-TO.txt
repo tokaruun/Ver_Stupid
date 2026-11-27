@@ -1,10 +1,12 @@
-WapeHub 3.1.3
-Tool backend: https://kurinian-hub.xyz/rejoin
-Desktop Discord callback: https://kurinian-hub.xyz/rejoin/auth/callback
+Wape Hub 3.1.8 - AutoExec theo nhom va treo an gon RAM
 
-Deploy the updated D:\Tool Rejoin\backend and dashboard with VapeeWeb's /rejoin proxy.
-Set TOOL_DISCORD_REDIRECT_URI=https://kurinian-hub.xyz/rejoin/auth/callback on the backend.
-Register that exact callback URL in Discord Developer Portal, then restart backend.
-Dashboard Discord callback remains /rejoin/api/auth/discord/callback (a separate URL).
-Replace the old EXE with this single WapeHub.exe. Existing local data is preserved.
-No production deployment or live Discord login was performed by this build.
+1. Dong WapeHub cu, mo WapeHub.exe trong thu muc nay. Du lieu nick va phien dang nhap tren may duoc giu nguyen.
+2. Vao Script > Chon thu muc AutoExec, chon dung thu muc autoexec cua executor ban dang dung. WapeHub tao WapeHub-Groups.lua trong thu muc do.
+3. Tao/nhap Lua va Luu. Vao Nhom > Script, tick script; vao Nhom > Tai khoan, tick nick thuoc nhom; bam Luu nhom. WapeHub dong bo file AutoExec khi luu.
+4. File AutoExec nhan dien Roblox UserId. Nick nao thuoc nhom nao thi chi chay script da gan cho nhom do. Executor phai ho tro autoexec va loadstring. Script duoc chay o lan Roblox/executor tai tiep theo; WapeHub khong inject vao game dang mo.
+5. Bam Dong bo AutoExec neu muon ghi lai file; bam Ngat AutoExec de xoa file do WapeHub tao va dung dong bo.
+6. Chon nick dang chay > Thao tac khac > Treo an cua so nick da chon. WapeHub thu nho, an va thu gon working set mot lan. Trang thai Dang an chi hien khi cua so thuc su da an. Dong khung xem truc tiep cung tro ve che do nay.
+7. An cua so khong dong bo nho game. So RAM hien trong Task Manager co the tang lai khi game can du lieu. Chu ky thu gon qua ngan co the lam tang CPU va I/O.
+8. Neu can khoi phuc cua so da an ma khong mo duoc WapeHub: chay WapeHub.exe --restore-hidden.
+
+Ban nay chua dang len may chu tu cap nhat.
