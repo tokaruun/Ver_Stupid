@@ -1,15 +1,9 @@
 {
-  "version": "3.1.8",
-  "core_ui_raw": 48,
-  "core_ui_obfuscated": 48,
-  "native_raw": "PASS",
-  "native_obfuscated": "PASS",
-  "single_exe_script_preview": "PASS",
-  "autoexec_group_mapping": "PASS",
-  "live_visible_cpu_percent_sample": 11.7,
-  "live_hidden_cpu_percent_sample": 1.2,
-  "live_hidden_trim_ram_mb_after_8s": 114,
-  "live_window_restored": true,
-  "published": false,
-  "sha256": "b93d14c094532c7074d833b931876695929499356e5fc5cc4c6eeeb7dfb31f15"
+    "version":  "3.1.9",
+    "core_tests":  49,
+    "native_checks":  "PASS",
+    "protected_build":  "PASS",
+    "single_exe":  "PASS",
+    "published":  false,
+    "sha256":  "7f62f20dec5196e498b5dfad4de7f0d6c21d070314a8c6daf55adad0e0c62dc7"
 }

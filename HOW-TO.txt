@@ -1,12 +1,7 @@
-Wape Hub 3.1.8 - AutoExec theo nhom va treo an gon RAM
+Wape Hub 3.1.9 - Link share server va rejoin an toan
 
-1. Dong WapeHub cu, mo WapeHub.exe trong thu muc nay. Du lieu nick va phien dang nhap tren may duoc giu nguyen.
-2. Vao Script > Chon thu muc AutoExec, chon dung thu muc autoexec cua executor ban dang dung. WapeHub tao WapeHub-Groups.lua trong thu muc do.
-3. Tao/nhap Lua va Luu. Vao Nhom > Script, tick script; vao Nhom > Tai khoan, tick nick thuoc nhom; bam Luu nhom. WapeHub dong bo file AutoExec khi luu.
-4. File AutoExec nhan dien Roblox UserId. Nick nao thuoc nhom nao thi chi chay script da gan cho nhom do. Executor phai ho tro autoexec va loadstring. Script duoc chay o lan Roblox/executor tai tiep theo; WapeHub khong inject vao game dang mo.
-5. Bam Dong bo AutoExec neu muon ghi lai file; bam Ngat AutoExec de xoa file do WapeHub tao va dung dong bo.
-6. Chon nick dang chay > Thao tac khac > Treo an cua so nick da chon. WapeHub thu nho, an va thu gon working set mot lan. Trang thai Dang an chi hien khi cua so thuc su da an. Dong khung xem truc tiep cung tro ve che do nay.
-7. An cua so khong dong bo nho game. So RAM hien trong Task Manager co the tang lai khi game can du lieu. Chu ky thu gon qua ngan co the lam tang CPU va I/O.
-8. Neu can khoi phuc cua so da an ma khong mo duoc WapeHub: chay WapeHub.exe --restore-hidden.
-
-Ban nay chua dang len may chu tu cap nhat.
+1. Dong WapeHub cu, mo WapeHub.exe trong thu muc nay. Ban phat hanh chi can EXE nay; WebView2 duoc nhung san va tu cai dat noi bo khi chay.
+2. Vao Nhom, chon nhom can sua. O Loai server chon Private server.
+3. O Link VIP / link share / linkCode / Job ID, co the dan link VIP co privateServerLinkCode hoac link share: https://www.roblox.com/share?code=...&type=Server. Bam Luu nhom.
+4. Rejoin se doi Roblox cu thoat het va khong tu mo chong trong thoi gian khoi dong, giup tranh loi 273 tren cung may. Neu tai khoan dang choi o thiet bi khac, hay tat phien do truoc.
+5. Ban nay chua dang len may chu tu cap nhat.
